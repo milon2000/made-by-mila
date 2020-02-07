@@ -1,6 +1,6 @@
 import React from "react";
 
-class Header extends React.Component {
+class Menu extends React.Component {
   state = {
     isOpen: false
   };
@@ -47,24 +47,19 @@ class Header extends React.Component {
                 <a href="/contact">Let's work together</a>
               </li>
             </ul>
+            <div className="connect">
+              <p>Connect:</p>
+              <p>contact@madebymila.net</p>
+              <p>942 17 445</p>
+              <img src="/img/github.png"></img>
+              <img src="/img/linkedin.png"></img>
+            </div>
           </nav>
         </div>
-        <section className="header__banner">
-          <div className="content">
-            <div className="header__intro">
-              <h2 className="header__title home-title">Hi, my name is Mila</h2>
-            </div>
-            <div className="header__content">
-              <p>I BUILD WEBSITES, WEB APPS AND MAKE YOUR INTERNET NICE</p>
-              <button className="header__button buttons">
-                See my works -->
-              </button>
-            </div>
-          </div>
-        </section>
-      </header>
+        </header>
+      
     );
   }
 }
 
-export default Header;
+export default Menu;
