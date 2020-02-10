@@ -4,7 +4,7 @@ import React from "react";
 class Contact extends React.Component {
     render() {
         return (
-            <div className="contact-component">
+            <div className="contact-component subpage">
             <form className="form-component">
                 <input name="name" type="text" placeholder="Name"/>
                 <input name="email" type="email" placeholder="Email"/>
