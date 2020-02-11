@@ -15,9 +15,6 @@ class Projects extends React.Component {
                     <h2 className="title title-subpage">Just a few words about me...</h2>
                     <p> pariatur?</p>
                     <SingleProject/>
-                    <SingleProject/>
-                    <SingleProject/>
-                    <SingleProject/>
                 </section>
                 <Contact/>
                 <Footer/>
