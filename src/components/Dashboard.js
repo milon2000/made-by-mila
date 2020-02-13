@@ -5,8 +5,8 @@ class Dashboard extends React.Component {
         return (
             <section className="main">
           <a href="/projects" className="projects">
-            <div className="projects-wrapper">
-            <article className="projects__content">
+            <div className="projects-wrapper wrapper">
+            <article className="projects__content content-subpage">
               <h2 className="projects__title title">
                 Websites and web apps
               </h2>
@@ -16,13 +16,13 @@ class Dashboard extends React.Component {
               <button className="button">See them all</button>
               
             </article>
-            <figure className="projects__image"></figure>
+            <figure className="projects__image image"></figure>
             </div>
           </a>
           
             <a href="/about" className="about">
-              <div className="about-wrapper">
-                <article className="about__content">
+              <div className="about-wrapper wrapper">
+                <article className="about__content content-subpage">
                   <h2 className="about__title title">About me</h2>
                   <p>I am a frontend developer and photographer living in Kongsberg, Norway</p>
                   <button className="button">Read more about me</button>
@@ -30,8 +30,8 @@ class Dashboard extends React.Component {
               </div>
             </a>
             <a href="/technologies" className="technologies">
-              <div className="technologies-wrapper">
-                <article className="technologies__content">
+              <div className="technologies-wrapper wrapper">
+                <article className="technologies__content content-subpage">
                   <h2 className="technologies__title title">
                     Technologies
                   </h2>
@@ -44,15 +44,15 @@ class Dashboard extends React.Component {
             </a>
           
           <a href="/together" className="together">
-            <div className="together-wrapper">
-              <article className="together__content">
+            <div className="together-wrapper wrapper">
+              <article className="together__content content-subpage">
                 <h2 className="together__title title">
                 I can help bring your ideas to life
                 </h2>
                 <p>Powered by VS Code and coffee, I turn your requirements and needs into websites or web apps on time and budget</p>
                 <button className="button">Let's work together</button>
               </article>
-              <figure className="together__image"></figure>
+              <figure className="together__image image"></figure>
             </div>
           </a>
         </section>
