@@ -12,8 +12,7 @@ class Projects extends React.Component {
             <div className="projects-component">
                 <Menu/>
                 <section className="projects-section subpage">
-                    <h2 className="title title-subpage">Just a few words about me...</h2>
-                    <p> pariatur?</p>
+                    <h2 className="title title-subpage">Here are a few design projects I've worked on recently</h2>
                     <SingleProject/>
                 </section>
                 <Contact/>

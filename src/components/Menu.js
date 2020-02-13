@@ -35,24 +35,21 @@ class Menu extends React.Component {
                 <a href="/about">About me</a>
               </li>
               <li className="header__item">
-                <a href="/together">How we can work</a>
-              </li>
-              <li className="header__item">
                 <a href="/technologies">Technologies</a>
               </li>
               <li className="header__item">
                 <a href="/projects">Projects</a>
               </li>
               <li className="header__item">
-                <a href="/contact">Let's work together</a>
+                <a href="/together">Let's work together</a>
               </li>
             </ul>
             <div className="connect">
               <p>Connect:</p>
               <p>contact@madebymila.net</p>
               <p>942 17 445</p>
-              <img src="/img/github.png"></img>
-              <img src="/img/linkedin.png"></img>
+              <a href="https://github.com/milon2000" target="_blank"><img src="/img/github.png"></img></a>
+              <a href="https://www.linkedin.com/in/milenakozlowska/" target="_blank"><img src="/img/linkedin.png"></img></a>
             </div>
           </nav>
         </div>

@@ -17,6 +17,7 @@ body {
 
 a {
 	text-decoration: none;
+	cursor: pointer;
 }
 
 h2 {
@@ -322,7 +323,7 @@ a:hover {
 }
 .technologies__content-sub {
 	min-height: 18vh;
-   
+	height: 32vh;
 }
 
 .tech-html, .tech-wp {
@@ -343,6 +344,9 @@ a:hover {
 }
 .technologies__image-sub {
 	margin: 3em;
+}
+.tchnologies-section .title-subpage {
+	margin-bottom: 2em;
 }
 /***Contact***/
 
@@ -400,6 +404,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	
 }
 
 .footer-wrapper {
@@ -510,7 +515,9 @@ a:hover {
 .projects-description-7 {
 	background-color: rgba(244, 242, 195, 0.3);
 }
-
+.projects-description-8 {
+	background-color: rgba(203, 231, 236, 0.3);
+}
 .projects-list .pro-title,
 .projects-list p {
 	padding-left: 5%;
@@ -584,7 +591,9 @@ a:hover {
 	.form-component input {
 		height: 40px;
 	}
-
+	.technologies__content-sub {
+		min-height: 20em;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -624,5 +633,11 @@ a:hover {
 
 	.projects-description p {
 		font-size: 0.9em;
+	}
+	.technologies-subpage-flex {
+		flex-direction: column;
+	}
+	.technologies__content-sub {
+		min-height: 15em;
 	}
 }

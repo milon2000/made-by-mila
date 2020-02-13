@@ -65,6 +65,15 @@ const ProjectList = {
         url: 'https://milon2000.github.io/justDoIt/',
         source: 'https://github.com/milon2000/justDoIt',
     },
+    doit: {
+        img : "/img/shop.jpg",
+        title:'Online shop',
+        desc: 'Simple to-do list. I was practicing plain JavaScript; basic DOM manipulation.',
+        class: 'projects-img flex even',
+        bg: 'projects-description-8 projects-description flex',
+        url: 'https://milon2000.github.io/justDoIt/',
+        source: 'https://github.com/milon2000/justDoIt',
+    },
  
 }
 

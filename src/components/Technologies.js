@@ -9,14 +9,15 @@ class Technologies extends React.Component {
             <div className="technologies-component">
                 <Menu/>
                 <section className="tchnologies-section subpage">
+                    <h2 className="title title-subpage">Technologies I have worked with</h2>
                     <div className="technologies-subpage-flex">
                     <div className="technologies-wrapper-sub wrapper">
                         <article className="technologies__content-sub content-subpage tech-html">
                             <h2 className="technologies__title-sub title">
-                                HTML
+                                HTML5
                             </h2>
                             <ul className="technologies__list-sub">
-                                <li>semantic code</li>
+                                <li>Ssemantic HTML5 code abiding W3C markup validation</li>
                                 <li>10+ websites</li>
                             </ul>
                         </article>
@@ -28,7 +29,7 @@ class Technologies extends React.Component {
                                 CSS
                             </h2>
                             <ul className="technologies__list-sub">
-                                <li>semantic code</li>
+                                <li>LESS preprocessor</li>
                                 <li>10+ websites</li>
                             </ul>
                         </article>
@@ -42,8 +43,8 @@ class Technologies extends React.Component {
                                 JavaScript
                             </h2>
                             <ul className="technologies__list-sub">
-                                <li>semantic code</li>
-                                <li>10+ websites</li>
+                                <li>Vanilla JS and jQuery</li>
+                                <li>React in progress - this website is created in React</li>
                             </ul>
                         </article>
                     </div>
@@ -54,8 +55,9 @@ class Technologies extends React.Component {
                                 PHP
                             </h2>
                             <ul className="technologies__list-sub">
-                                <li>semantic code</li>
-                                <li>10+ websites</li>
+                                <li>Basic syntax knowledge</li>
+                                <li>Using PHP to create WP themes and work with the Shopware platform</li>
+                                <li>Smarty</li>
                             </ul>
                         </article>
                     </div>
@@ -68,8 +70,8 @@ class Technologies extends React.Component {
                                 WordPress
                             </h2>
                             <ul className="technologies__list-sub">
-                                <li>semantic code</li>
-                                <li>10+ websites</li>
+                                <li>Adjusting the existing theme to requirements</li>
+                                <li>Creating WP theme from scratch</li>
                             </ul>
                         </article>
                     </div>
@@ -77,11 +79,10 @@ class Technologies extends React.Component {
                     <div className="technologies-wrapper-sub wrapper">
                         <article className="technologies__content-sub content-subpage tech-shopware">
                             <h2 className="technologies__title-sub title">
-                                PHP
+                                Shopware
                             </h2>
                             <ul className="technologies__list-sub">
-                                <li>semantic code</li>
-                                <li>10+ websites</li>
+                                <li>Shopping Worlds, custom settings, hierarchy</li>
                             </ul>
                         </article>
                     </div>
@@ -95,8 +96,7 @@ class Technologies extends React.Component {
                                 GitHub
                             </h2>
                             <ul className="technologies__list-sub">
-                                <li>semantic code</li>
-                                <li>10+ websites</li>
+                                <li>For most of my projects, I use GIT version control and github.com as my repository host</li>
                             </ul>
                         </article>
                     </div>
@@ -107,8 +107,7 @@ class Technologies extends React.Component {
                                 Adobe
                             </h2>
                             <ul className="technologies__list-sub">
-                                <li>semantic code</li>
-                                <li>10+ websites</li>
+                                <li>Photoshop, Illustrator, InDesign, After Effects</li>
                             </ul>
                         </article>
                     </div>

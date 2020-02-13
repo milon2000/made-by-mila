@@ -12,7 +12,7 @@ class HeaderBanner extends React.Component {
               <h2 className="header__title title">Hey, I am Mila</h2>
             </div>
             <div className="header__content">
-              <p>I create websites and web aaplications
+              <p>I create websites and web applications
             
               </p>
               <button className="header__button button">
