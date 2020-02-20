@@ -11,7 +11,7 @@ class Dashboard extends React.Component {
                 Websites and web apps
               </h2>
               <p>
-              I have completed over 10 projects, including websites and web apps, both commercial and non-profit
+              I have completed moe than 10 projects, including websites and web apps, both commercial and non-profit
               </p>
               <button className="button">See them all</button>
               
@@ -36,7 +36,7 @@ class Dashboard extends React.Component {
                     Technologies
                   </h2>
                   <p>
-                  My current IT stack includes both front and back-end programming experience
+                  My current IT stack includes both frontend and backend programming experience
                   </p>
                   <button className="button">See the details</button>
                 </article>
@@ -49,7 +49,7 @@ class Dashboard extends React.Component {
                 <h2 className="together__title title">
                 I can help bring your ideas to life
                 </h2>
-                <p>Powered by VS Code and coffee, I turn your requirements and needs into websites or web apps on time and budget</p>
+                <p>Powered by VS Code and coffee, I turn your requirements and needs into websites or web apps on time and in budget</p>
                 <button className="button">Let's work together</button>
               </article>
               <figure className="together__image image"></figure>

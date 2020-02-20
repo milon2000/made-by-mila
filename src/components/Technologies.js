@@ -17,7 +17,7 @@ class Technologies extends React.Component {
                                 HTML5
                             </h2>
                             <ul className="technologies__list-sub">
-                                <li>Ssemantic HTML5 code abiding W3C markup validation</li>
+                                <li>Semantic HTML5 code abiding W3C markup validation</li>
                                 <li>10+ websites</li>
                             </ul>
                         </article>

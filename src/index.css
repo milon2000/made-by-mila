@@ -322,8 +322,8 @@ a:hover {
 	display: flex;
 }
 .technologies__content-sub {
-	min-height: 18vh;
-	height: 32vh;
+	min-height: 25vh;
+	height: 47vh;
 }
 
 .tech-html, .tech-wp {
@@ -374,7 +374,7 @@ a:hover {
 
 .form-component input {
 	height: 80px;
-	margin-bottom: 3em;
+	margin-bottom: 1.5em;
 	width: 100%;
 	background-color: #ebebeb;
 	border-style: none;
@@ -390,7 +390,11 @@ a:hover {
 	padding-left: 15px;
 	padding-top: 15px;
 }
-
+.send-button {
+	width: 30%;
+	text-align: center;
+	margin-top: 30px;
+}
 /***Footer***/
 .footer-component {
 	background: #f4f4f4;

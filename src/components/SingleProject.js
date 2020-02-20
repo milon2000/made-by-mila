@@ -4,16 +4,16 @@ const ProjectList = {
     hairball: {
         img : "/img/hairball.jpg",
         title:'WordPress theme - Hairball',
-        desc: 'Theme created for organizations helping animals. Easy to use. Thanks to robust theme options panel, there is no need to implement presented solutions via code. Based om my own project. Some features: custom header, custom post type, minimalistic, modern design.  ',
+        desc: 'Easy to use theme created for organizations helping animals. Thanks to a robust theme options panel, there is no need to implement presented solutions via code. Based on my own design. Some features: custom header, custom post type, minimalistic, modern design.  ',
         class: 'projects-img flex even',
         bg: 'projects-description-1 projects-description flex',
         url: 'http://milon202.vot.pl/Blog/',
-        source: 'https://github.com/milon2000/hairball'
+        source: 'https://github.com/milon2000/hairball',
     },
     wp: {
         img : "/img/wp.jpg",
-        title:'WordPress website for photographer',
-        desc: 'Minimalist, modern design and development based on a commercial WordPress theme. Configuring a plugin for three languages.',
+        title:'WordPress website for photographers',
+        desc: 'Minimalist, modern design and development based on a commercial WordPress theme. Configuration of a plugin for three languages.',
         class: 'projects-img flex',
         bg: 'projects-description-2 projects-description flex',
         url: 'http://www.barnefotografering.com/',
@@ -32,7 +32,7 @@ const ProjectList = {
     calculator: {
         img : "/img/calculator.jpg",
         title:'Currency Calculator',
-        desc: 'The app is created in vanilla JavaScript. The calculator is fetching data from the Polish National Bank.',
+        desc: 'App created in vanilla JavaScript with a calculator that fetches data from the Polish National Bank.',
         class: 'projects-img flex',
         bg: 'projects-description-4 projects-description flex',
         url: 'http://designedbymila.com/calculator/',
@@ -65,7 +65,7 @@ const ProjectList = {
         url: 'https://milon2000.github.io/justDoIt/',
         source: 'https://github.com/milon2000/justDoIt',
     },
-    doit: {
+    shopware: {
         img : "/img/shop.jpg",
         title:'Online shop',
         desc: 'Simple to-do list. I was practicing plain JavaScript; basic DOM manipulation.',
@@ -85,14 +85,14 @@ class SingleProject extends React.Component{
 
                 <div key={key} className="projects-list">
                         <div className={value.class}>
-                            <img src={value.img}></img>
+                            <img src={value.img} alt="Project"></img>
                         </div>
                         <div className={value.bg}>
                             <h2 className="title pro-title">{value.title}</h2>
                             <p>{value.desc}</p>
                             <div className="buttons">
-                            <a href={value.url} target="_blank"><button className="button">See the project</button></a>
-                            <a href={value.source} target="_blank"><button className="button">Source</button></a>
+                            <a href={value.url} target="_blank" rel="noopener noreferrer"><button className="button">See the project</button></a>
+                            <a href={value.source} target="_blank" rel="noopener noreferrer"><button className="button">Source</button></a>
                             </div>
                         </div>
                         

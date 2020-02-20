@@ -9,15 +9,16 @@ class HeaderBanner extends React.Component {
         <section className="header__banner">
           <div className="content">
             <div className="header__intro">
-              <h2 className="header__title title">Hey, I am Mila</h2>
+              <h2 className="header__title title">Hey, I'm Mila</h2>
             </div>
             <div className="header__content">
               <p>I create websites and web applications
             
               </p>
-              <button className="header__button button">
-                See my works
+              <a href="/projects"><button className="header__button button">
+                See my work
               </button>
+              </a>
             </div>
           </div>
         </section>

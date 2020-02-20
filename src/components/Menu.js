@@ -48,8 +48,8 @@ class Menu extends React.Component {
               <p>Connect:</p>
               <p>contact@madebymila.net</p>
               <p>942 17 445</p>
-              <a href="https://github.com/milon2000" target="_blank"><img src="/img/github.png"></img></a>
-              <a href="https://www.linkedin.com/in/milenakozlowska/" target="_blank"><img src="/img/linkedin.png"></img></a>
+              <a href="https://github.com/milon2000" target="_blank" rel="noopener noreferrer"><img src="/img/github.png" alt="Github Icon"></img></a>
+              <a href="https://www.linkedin.com/in/milenakozlowska/" target="_blank" rel="noopener noreferrer"><img src="/img/linkedin.png" alt="LinkedIn Icon"></img></a>
             </div>
           </nav>
         </div>

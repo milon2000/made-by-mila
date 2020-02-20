@@ -7,7 +7,7 @@ import SingleProject from "./SingleProject";
 class Projects extends React.Component {
     
     render() {
-        console.log(window.location.href);
+
         return (
             <div className="projects-component">
                 <Menu/>
