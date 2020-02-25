@@ -41,7 +41,7 @@ const ProjectList = {
     adjectives: {
         img : "/img/adjectives.jpg",
         title:'Application - Norwegian Adjectives',
-        desc: 'If you are learning Norwegian and you are struggling with adjectives, this app is for you. It explains in a funny (I hope) way, how Norwegian adjectives and nouns work. Created in vanilla JavaScript.',
+        desc: 'If you are learning Norwegian and are struggling with adjectives, this app is for you. It explains in a funny (I hope) way, how Norwegian adjectives and nouns work. Created in vanilla JavaScript.',
         class: 'projects-img flex even',
         bg: 'projects-description-5 projects-description flex',
         url: 'https://milon2000.github.io/app-adjectives-in-Norwegian/',

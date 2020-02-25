@@ -11,7 +11,7 @@ class Dashboard extends React.Component {
                 Websites and web apps
               </h2>
               <p>
-              I have completed moe than 10 projects, including websites and web apps, both commercial and non-profit
+              I have completed more than 10 projects, including websites and web apps, both commercial and non-profit
               </p>
               <button className="button">See them all</button>
               
