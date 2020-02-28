@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 class Dashboard extends React.Component {
     render() {
         return (
             <section className="main">
-          <a href="/projects" className="projects">
+          <Link to="/projects" className="projects">
             <div className="projects-wrapper wrapper">
             <article className="projects__content content-subpage">
               <h2 className="projects__title title">
@@ -18,9 +19,9 @@ class Dashboard extends React.Component {
             </article>
             <figure className="projects__image image"></figure>
             </div>
-          </a>
+          </Link>
           
-            <a href="/about" className="about">
+            <Link to="/about" className="about">
               <div className="about-wrapper wrapper">
                 <article className="about__content content-subpage">
                   <h2 className="about__title title">About me</h2>
@@ -28,8 +29,8 @@ class Dashboard extends React.Component {
                   <button className="button">Read more about me</button>
                 </article>
               </div>
-            </a>
-            <a href="/technologies" className="technologies">
+            </Link>
+            <Link to="/technologies" className="technologies">
               <div className="technologies-wrapper wrapper">
                 <article className="technologies__content content-subpage">
                   <h2 className="technologies__title title">
@@ -41,9 +42,9 @@ class Dashboard extends React.Component {
                   <button className="button">See the details</button>
                 </article>
               </div>
-            </a>
+            </Link>
           
-          <a href="/together" className="together">
+          <Link to="/together" className="together">
             <div className="together-wrapper wrapper">
               <article className="together__content content-subpage">
                 <h2 className="together__title title">
@@ -54,7 +55,7 @@ class Dashboard extends React.Component {
               </article>
               <figure className="together__image image"></figure>
             </div>
-          </a>
+          </Link>
         </section>
         )
     }

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const ProjectList = {
     hairball: {
         img : "/img/hairball.jpg",
@@ -68,11 +69,11 @@ const ProjectList = {
     shopware: {
         img : "/img/shop.jpg",
         title:'Online shop',
-        desc: 'Simple to-do list. I was practicing plain JavaScript; basic DOM manipulation.',
+        desc: 'I was part of a team who created that online shop. ',
         class: 'projects-img flex even',
         bg: 'projects-description-8 projects-description flex',
-        url: 'https://milon2000.github.io/justDoIt/',
-        source: 'https://github.com/milon2000/justDoIt',
+        url: 'https://www.outfits24.de/',
+        source: 'https://www.outfits24.de/',
     },
  
 }

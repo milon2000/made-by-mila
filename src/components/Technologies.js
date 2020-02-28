@@ -3,6 +3,7 @@ import Menu from "./Menu";
 import Footer from "./Footer";
 import Contact from "./Contact";
 
+
 class Technologies extends React.Component {
     render() {
         return (
@@ -57,7 +58,7 @@ class Technologies extends React.Component {
                             <ul className="technologies__list-sub">
                                 <li>Basic syntax knowledge</li>
                                 <li>Using PHP to create WP themes and work with the Shopware platform</li>
-                                <li>Smarty</li>
+                            
                             </ul>
                         </article>
                     </div>
@@ -82,7 +83,8 @@ class Technologies extends React.Component {
                                 Shopware
                             </h2>
                             <ul className="technologies__list-sub">
-                                <li>Shopping Worlds, custom settings, hierarchy</li>
+                                <li>Shopping Worlds, custom settings</li>
+                                <li>Adjusting the theme to requirements</li>
                             </ul>
                         </article>
                     </div>

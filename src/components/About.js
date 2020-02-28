@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Contact from "./Contact";
 import Menu from "./Menu";
+import { Link } from 'react-router-dom';
 
 class About extends React.Component {
     render() {
@@ -10,7 +11,7 @@ class About extends React.Component {
                 <Menu/>
                 <section className="about-section subpage">
                     <h2 className="title title-subpage">Just a few words about me...</h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    <p>Hi, my name is Mila, and I live in Kongsberg, Norway. By trade, I am a polish philologist, but I've never worked in my profession. It turned out that I follow py passion from the beginning.  For a few years, I worked as a sommelier, then as a manager, and then, I started my own business related to wedding photography and videography. But all the time, I was very close to programming: during my studies, I've learned how to create websites and created one. As a manager, I was responsible for website maintenance. For my own business, I also created a website. And then another one, better, then I discovered WordPress, JavaScript, and that was it! After almost seven years as a photographer, I've decided to change something! We (my and my family) moved to Norway, and I become a frontend developer. I am working as forntend developer since two years.  If you want to check my tech stack, <Link to="/technologies">check here</Link>. If you are interested in what projects I worked on, <Link to="/projects">visit this place</Link>. And if you are want to know something more, feel free to contact me. You can write in Polish, English and Norwegian, but for better understanding,  don't choose Norwegian for the phone call :) I still need some practice in speaking and understanding Norwegian people.</p>
                 </section>
                 <Contact/>
                 <Footer/>

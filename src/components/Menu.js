@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 class Menu extends React.Component {
   state = {
@@ -10,13 +11,12 @@ class Menu extends React.Component {
   };
   render() {
     let isOpenMenu = this.state.isOpen;
-    console.log(this.state.isOpen);
     return (
       <header className="header">
         <div className="header__top-bar">
-          <a href="/" className="header__logo">
+          <Link to="/" className="header__logo">
             Made by Mila_
-          </a>
+          </Link>
           <div
             className={isOpenMenu ? "nav-toggle expanded" : "nav-toggle"}
             onClick={this.openMenu}
@@ -29,19 +29,19 @@ class Menu extends React.Component {
           <nav className={isOpenMenu ? "nav expanded" : "nav"}>
             <ul className="header__list">
               <li className="header__item">
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="header__item">
-                <a href="/about">About me</a>
+                <Link to="/about">About me</Link>
               </li>
               <li className="header__item">
-                <a href="/technologies">Technologies</a>
+                <Link to="/technologies">Technologies</Link>
               </li>
               <li className="header__item">
-                <a href="/projects">Projects</a>
+                <Link to="/projects">Projects</Link>
               </li>
               <li className="header__item">
-                <a href="/together">Let's work together</a>
+                <Link to="/together">Let's work together</Link>
               </li>
             </ul>
             <div className="connect">

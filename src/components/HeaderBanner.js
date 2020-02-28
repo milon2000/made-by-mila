@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 class HeaderBanner extends React.Component {
 
@@ -15,10 +16,10 @@ class HeaderBanner extends React.Component {
               <p>I create websites and web applications
             
               </p>
-              <a href="/projects"><button className="header__button button">
+              <Link to="/projects"><button className="header__button button">
                 See my work
               </button>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
