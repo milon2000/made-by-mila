@@ -1,4 +1,5 @@
 import React from 'react';
+import Translate from 'react-translate-component';
 
 export default class extends React.Component {
   state = {
@@ -11,13 +12,10 @@ export default class extends React.Component {
 	return (
 		<div className="contact-component subpage">
             <form className="form-component" >
-                <input name="name" id="name" onChange={this.handleChangeName} type="text" placeholder="Name"/>
-                <input name="email" id="email" onChange={this.handleChangeEmail} type="email" placeholder="Email"/>
-                <textarea name="message" id="message" onChange={this.handleChangeMessage} className="form-textarea" placeholder="Message"></textarea>
-                <button onClick={this.handleSubmit} className="button send-button">
-                  
-              Send
-            </button>
+            <Translate component="input" type="text" name="name" id="name" onChange={this.handleChangeName}  attributes={{placeholder: 'contactForm.contactFormName'}}/>
+            <Translate component="input" type="text" name="email" id="email" onChange={this.handleChangeEmail}  attributes={{placeholder: 'contactForm.contactFormEmail'}}/>
+            <Translate component="textarea" type="text" name="message" id="message" onChange={this.handleChangeMessage} className="form-textarea"  attributes={{placeholder: 'contactForm.contactFormMessage'}}/>
+            <Translate content="contactForm.contactFormButton" component="button" onClick={this.handleSubmit} className="button send-button"/>
             <p id="msg"></p>
             </form>
             <figure className="contact-image">

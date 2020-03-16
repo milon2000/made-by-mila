@@ -1,9 +1,26 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import Translate from 'react-translate-component';
+import counterpart from 'counterpart';
+import en from '../lang/en';
+import pl from '../lang/pl';
+import no from '../lang/no';
+
+counterpart.registerTranslations('en', en);
+counterpart.registerTranslations('pl', pl);
+counterpart.registerTranslations('no', no);
+counterpart.setLocale('en');
 
 class Menu extends React.Component {
+
+
+  onLangChange = (e) => {
+    this.setState({lang: e.target.value});
+    counterpart.setLocale(e.target.value);
+  }
   state = {
-    isOpen: false
+    isOpen: false,
+    lang: 'en'
   };
 
   openMenu = () => {
@@ -15,7 +32,7 @@ class Menu extends React.Component {
       <header className="header">
         <div className="header__top-bar">
           <Link to="/" className="header__logo">
-            Made by Mila_
+            <img src="/img/logo.png"></img>
           </Link>
           <div
             className={isOpenMenu ? "nav-toggle expanded" : "nav-toggle"}
@@ -28,24 +45,22 @@ class Menu extends React.Component {
 
           <nav className={isOpenMenu ? "nav expanded" : "nav"}>
             <ul className="header__list">
-              <li className="header__item">
-                <Link to="/">Home</Link>
-              </li>
-              <li className="header__item">
-                <Link to="/about">About me</Link>
-              </li>
-              <li className="header__item">
-                <Link to="/technologies">Technologies</Link>
-              </li>
-              <li className="header__item">
-                <Link to="/projects">Projects</Link>
-              </li>
-              <li className="header__item">
-                <Link to="/together">Let's work together</Link>
-              </li>
+            <Link to="/"><Translate content="menu.home" component="li" className="header__item"/></Link>
+            <Link to="/about"><Translate content="menu.about" component="li" className="header__item"/></Link>
+            <Link to="/technologies"><Translate content="menu.technologies" component="li" className="header__item"/></Link>
+            <Link to="/projects"><Translate content="menu.projects" component="li" className="header__item"/></Link>
+            <Link to="/together"><Translate content="menu.together" component="li" className="header__item"/></Link>
             </ul>
+            <div>
+            <select value={this.state.lang} onChange={this.onLangChange}>
+      <option value="en">EN</option>
+      <option value="pl">PL</option>
+      <option value="no">NO</option>
+      
+      </select>
+            </div>
             <div className="connect">
-              <p>Connect:</p>
+            <Translate content="menu.connect" component="p"/>
               <p>contact@madebymila.net</p>
               <p>942 17 445</p>
               <a href="https://github.com/milon2000" target="_blank" rel="noopener noreferrer"><img src="/img/github.png" alt="Github Icon"></img></a>

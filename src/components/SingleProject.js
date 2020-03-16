@@ -69,7 +69,7 @@ const ProjectList = {
     shopware: {
         img : "/img/shop.jpg",
         title:'Online shop',
-        desc: 'I was part of a team who created that online shop. ',
+        desc: 'I was part of a team who created that online shop. My main responsibility was to create the homepage with custom settings in the backend panel. The shop was built on the Shopware platform. ',
         class: 'projects-img flex even',
         bg: 'projects-description-8 projects-description flex',
         url: 'https://www.outfits24.de/',

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import Translate from 'react-translate-component';
 
 class Footer extends React.Component {
     render() {
@@ -11,8 +12,8 @@ class Footer extends React.Component {
                 <a href="https://www.linkedin.com/in/milenakozlowska/" target="_blank" rel="noopener noreferrer"><img src="/img/linkedin.png" alt=" LinkedIn Icon"></img></a>
                 </div>
                 <div className="copy">
-                    <p>Designed and developed by <Link to="/">Made by Mila</Link></p>
-                    <p>I use cookies and similar technologies to run this website to understand how you use it. By choosing to continue, you are accepting my privacy policy.</p>
+                <Link to="/"><Translate content="footer.footerCopy" component="p" /></Link>
+                <Translate content="footer.footerCookies" component="p" /> 
                 </div>
             </div>
             </div>
