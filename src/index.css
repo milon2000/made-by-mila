@@ -5,7 +5,7 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	line-height: 1.5;
-	color: #5E6B6E;
+	
 }
 
 body {
@@ -14,7 +14,11 @@ body {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
+	color: #5E6B6E;
 
+}
+a, h1, h2, h3, h4, h5, li, p, button {
+	color: #5E6B6E;
 }
 
 a {
@@ -60,15 +64,16 @@ button:hover {
 	color: #e95e91;
 }
 
-a {
+a, li {
 	-webkit-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
 
-a:hover {
+a:hover, li:hover {
 	color: #e95e91;
 }
+
 
 /***Header***/
 
@@ -77,14 +82,26 @@ a:hover {
 }
 .header__top-bar {
 	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
 }
 .header__banner,
 .header {
 	background-color: #fff;
 }
-.header-lang {
-	margin-left: 10%;
+.lang  {
+	margin-right: 1%;
+	margin-left: 8%;
+	padding: 10px;
+	line-height: 1;
+	width: 50px;
+	text-align: center;
 }
+.lang-buttons {
+	display: flex;
+	padding-left: 8%;
+}
+
 .nav-toggle {
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -705,6 +722,9 @@ a:hover {
 }
 
 @media screen and (max-width: 500px) {
+	.lang-buttons {
+		padding-left: 0;
+	}
 	.nav-toggle {
 		right: 1em;
 	}

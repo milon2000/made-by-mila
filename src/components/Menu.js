@@ -31,14 +31,16 @@ class Menu extends React.Component {
     return (
       <header className="header">
         <div className="header__top-bar">
+          <div>
           <Link to="/" className="header__logo">
             <img src="/img/logo.png"></img>
           </Link>
-          <select value={this.state.lang} onChange={this.onLangChange} className="header-lang">
-            <option value="en">EN</option>
-            <option value="pl">PL</option>
-            <option value="no">NO</option>
-          </select>
+          </div>
+          <div className="lang-buttons">
+          <button value="en" onClick={this.onLangChange} className="button lang">EN</button>
+          <button value="pl" onClick={this.onLangChange} className="button lang">PL</button>
+          <button value="no" onClick={this.onLangChange} className="button lang">NO</button>
+          </div>
           <div
             className={isOpenMenu ? "nav-toggle expanded" : "nav-toggle"}
             onClick={this.openMenu}
