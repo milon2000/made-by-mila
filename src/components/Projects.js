@@ -3,6 +3,7 @@ import Menu from "./Menu";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import SingleProject from "./SingleProject";
+import Translate from 'react-translate-component';
 
 class Projects extends React.Component {
     
@@ -12,7 +13,7 @@ class Projects extends React.Component {
             <div className="projects-component">
                 <Menu/>
                 <section className="projects-section subpage">
-                    <h2 className="title title-subpage">Here are a few design projects I've worked on recently</h2>
+                <Translate content="projectsPage.title" component="h2" className="title title-subpage"/>
                     <SingleProject/>
                 </section>
                 <Contact/>

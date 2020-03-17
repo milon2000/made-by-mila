@@ -75,12 +75,16 @@ a:hover {
 .header {
 	margin-top: 3em;
 }
-
+.header__top-bar {
+	display: flex;
+}
 .header__banner,
 .header {
 	background-color: #fff;
 }
-
+.header-lang {
+	margin-left: 10%;
+}
 .nav-toggle {
 	-webkit-user-select: none;
 	-moz-user-select: none;

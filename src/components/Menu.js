@@ -34,6 +34,11 @@ class Menu extends React.Component {
           <Link to="/" className="header__logo">
             <img src="/img/logo.png"></img>
           </Link>
+          <select value={this.state.lang} onChange={this.onLangChange} className="header-lang">
+            <option value="en">EN</option>
+            <option value="pl">PL</option>
+            <option value="no">NO</option>
+          </select>
           <div
             className={isOpenMenu ? "nav-toggle expanded" : "nav-toggle"}
             onClick={this.openMenu}
@@ -52,12 +57,7 @@ class Menu extends React.Component {
             <Link to="/together"><Translate content="menu.together" component="li" className="header__item"/></Link>
             </ul>
             <div>
-            <select value={this.state.lang} onChange={this.onLangChange}>
-      <option value="en">EN</option>
-      <option value="pl">PL</option>
-      <option value="no">NO</option>
-      
-      </select>
+
             </div>
             <div className="connect">
             <Translate content="menu.connect" component="p"/>

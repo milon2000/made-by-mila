@@ -76,6 +76,7 @@ export default {
         }
     },
     projectsPage: {
+        title: 'Here are a few design projects I\'ve worked on recently',
         hairball: {
             hairballTitle: 'WordPress theme - Hairball',
             hairballTxt: 'Easy to use theme created for organizations helping animals. Thanks to a robust theme options panel, there is no need to implement presented solutions via code. Based on my own design. Some features: custom header, custom post type, minimalistic, modern design.',
@@ -86,7 +87,7 @@ export default {
             barnefotografTitle: 'WordPress website for photographers',
             barnefotografTxt: 'Minimalist, modern design and development based on a commercial WordPress theme. Configuration of a plugin for three languages.',
             barnefotografProject: 'See the project',
-            barnefotograf: 'Source'
+            barnefotografSource: 'Source'
         },
         psd: {
             psdTitle: 'PSD to HTML, CSS and jQuery',
@@ -106,11 +107,11 @@ export default {
             appProject: 'See the project',
             appSource: 'Source'
         },
-        website: {
-            websiteTitle: 'Personal website v1.0',
-            websiteTxt: 'Static website based on my own design.',
-            websiteProject: 'See the project',
-            websiteSource: 'Source'
+        personal: {
+            personalTitle: 'Personal website v1.0',
+            personalTxt: 'Static website based on my own design.',
+            personalProject: 'See the project',
+            personalSource: 'Source'
         },
         do: {
             doTitle: 'Just do it!',
